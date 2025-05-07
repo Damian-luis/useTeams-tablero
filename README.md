@@ -78,19 +78,19 @@ PORT=3000
 
 
 El archivo compose debera estar ubicado en el directorio padre del cliente y del servidor
-.
-├── api/                 # NestJS backend
-│   ├── src/
-│   │   ├── schemas/     # MongoDB schemas
-│   │   ├── services/    # Business logic
-│   │   └── gateways/    # WebSocket handlers
-│   └── ...
-├── client/             # Next.js frontend
-│   ├── src/
-│   │   ├── app/        # Next.js pages
-│   │   ├── components/ # React components
-│   │   ├── context/    # React context
-│   │   └── types/      # TypeScript types
-│   └── ...
-└── docker-compose.yml  # Docker configuration
 
+```text
+.
+├── api/                
+│   ├── src/
+│   │   ├── schemas/    
+│   │   ├── services/    
+│   └── ...
+├── client/             
+│   ├── src/
+│   │   ├── app/        
+│   │   ├── components/ 
+│   │   ├── context/    
+│   │   └── types/     
+│   └── ...
+└── docker-compose.yml  
